@@ -1,0 +1,19 @@
+eng_marks =  70
+urdu_marks = 63
+maths_marks = 98
+
+percentage_urdu = urdu_marks/75 * 100
+percentage_eng = eng_marks/85 * 100
+percentage_maths = maths_marks/100 * 100
+total_marks = 260
+average_marks = (eng_marks + urdu_marks + maths_marks)/3
+total_obtained = eng_marks + urdu_marks + maths_marks
+total_percentage = total_obtained/total_marks * 100
+
+print("English Marks=",eng_marks)
+print("Maths Marks=",maths_marks)
+print("Urdu Marks=",urdu_marks)
+print("Total Marks=",total_marks)
+print("Total Marks Obtained=",total_obtained)
+print("Average Marks=",average_marks)
+print("Total Percentage=",total_percentage)
